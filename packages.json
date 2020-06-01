@@ -1,0 +1,23 @@
+{
+    "name": "openpackage",
+    "authors": [
+        "Ethan Manzi"
+    ],
+    "description": "The offical Open Package Manager",
+    "keywords": ["opkg", "oclidiamond"],
+    "latest-release": [1,0,0],
+
+    "releases": [
+        {
+            "version": [1,0,0],
+            "canidates": {
+                "openos:any": {
+                    "target": "www.placeholder.com/releases/release-abc-openos.tar.gz"
+                },
+                "plan9k:any": {
+                    "target": "www.placeholder.com/releases/release-abc-plan9k.zip"
+                }
+            }
+        }
+    ]
+}

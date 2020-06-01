@@ -1,0 +1,33 @@
+{
+    "name": "openpackage",
+    "version": [1,0,0],
+    "authors": [
+        "Ethan Manzi"
+    ],
+    "description": "The offical Open Package Manager",
+    "keywords": ["opkg", "oclidiamond"],
+    "jobs": {
+        "uninstall": {
+            "files": {
+                "lib/*": "/lib/",
+                "bin/*": "/bin/",
+                "man/*": "/usr/man"
+            },
+            "scripts": {
+                "pre": [],
+                "post": []
+            }
+        },
+        "update": {
+            "files": {
+                "lib/*": "/lib/",
+                "bin/*": "/bin/",
+                "man/*": "/usr/man"
+            },
+            "scripts": {
+                "pre": [],
+                "post": []
+            }
+        }
+    }
+}
