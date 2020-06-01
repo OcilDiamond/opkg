@@ -10,6 +10,11 @@
     "releases": [
         {
             "version": [1,0,0],
+            "dependencies": {
+                "jsonlib": "any",
+                "zipper": "any",
+                "arguify": "any"
+            },
             "canidates": {
                 "openos:any": {
                     "target": "www.placeholder.com/releases/release-abc-openos.tar.gz"

@@ -6,6 +6,18 @@
     ],
     "description": "The offical Open Package Manager",
     "keywords": ["opkg", "oclidiamond"],
+    
+    "dependencies": {
+        "heyjson": "any",
+        "packager": "any",
+        "zipper": "any",
+        "tarpit": "any",
+        "arguify": "any",
+        "better-primitives": "any",
+        "openlogger": "any",
+        "openoxygen": "any"
+    },
+
     "jobs": {
         "uninstall": {
             "files": {
